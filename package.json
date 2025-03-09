@@ -1,0 +1,35 @@
+{
+  "name": "remotion-template",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render HelloWorld out/video.mp4",
+    "upgrade": "remotion upgrade",
+    "test": "eslint src && tsc"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "^4.0.93",
+    "@remotion/lambda": "4.0.182",
+    "@remotion/shapes": "^4.0.182",
+    "@remotion/zod-types": "^4.0.93",
+    "color": "^4.2.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "^4.0.93",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "9.5.0",
+    "@remotion/eslint-config": "^4.0.93",
+    "@types/color": "^3.0.6",
+    "@types/react": "^18.0.26",
+    "@types/web": "^0.0.143",
+    "eslint": "9.5.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}
